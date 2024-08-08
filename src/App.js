@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 // Configuration object for the application's API endpoint
 export const config = {
-  endpoint: `http://localhost:3001/api`,
+  endpoint: `https://teachers-portal-1.onrender.com/api`,
 };
 
 // Main application component

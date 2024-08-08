@@ -1,10 +1,10 @@
 import { TextField, Button } from "@mui/material";
-import "./loginAndRegister.css";
 import {config} from "../App";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useState } from "react";
 import axios from "axios";
+import "./loginAndRegister.css";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -36,7 +36,7 @@ const Register = () => {
     <section className="login-container">
       <div className="login-header">
         <div className="header">REGISTER</div>
-        <p>Get Started With student-Bot</p>
+        <p>Get Started With Teacher Portal</p>
       </div>
       {/* Input field for username */}
       <TextField
